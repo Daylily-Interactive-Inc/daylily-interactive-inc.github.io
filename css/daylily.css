@@ -1,0 +1,61 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #301e29;
+  color: white;
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+@font-face {
+    font-family: moontime;
+    src: url(/fonts/MoonTime-Regular.ttf);
+}
+
+.topbar {
+}
+
+.logo-div {
+  text-align: center;
+}
+
+.logo {
+  font-family: moontime;
+  font-size: 100px !important;
+}
+
+.secondary-logo {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.menu {
+  text-align: center;
+  position: absolute;
+  bottom: 200px;
+  width: 100%;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 30px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.shape-div {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
