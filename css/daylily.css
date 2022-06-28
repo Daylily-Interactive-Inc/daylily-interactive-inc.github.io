@@ -33,9 +33,10 @@ html, body {
 .menu {
   text-align: center;
   width: 100%;
-  font-size: 48px;
+  font-size: 1.5em;
   color: #aaa;
   letter-spacing: 1px;
+  margin-top: 4em;
 }
 
 .menu .lighter {
@@ -47,8 +48,8 @@ html, body {
   bottom: 0;
   width: 100%;
   text-align: center;
-  font-size: 2em;
-  margin: 2em;
+  font-size: 1em;
+  margin-bottom: 1em;
 }
 
 .shape-div {
@@ -58,66 +59,18 @@ html, body {
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  border-bottom: 1px dashed white;
-}
-
 .center-vert {
   margin-top: 3em;
 }
 
+.services {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+}
 
-@media only screen and (max-width: 800px) {
-  .topbar {
-  }
-
-  .logo-div {
-    text-align: center;
-  }
-
-  .logo {
-    font-family: moontime;
-    font-size: 8em !important;
-  }
-
-  .secondary-logo {
-    font-size: 2em;
-    text-transform: uppercase;
-  }
-
-  .menu {
-    text-align: center;
-    width: 100%;
-    font-size: 48px;
-    color: #aaa;
-    letter-spacing: 1px;
-  }
-
-  .menu .lighter {
-    color: #fff;
-  }
-
-  .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 2em;
-    margin: 2em;
-  }
-
-  .shape-div {
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  a {
-    text-decoration: none;
-    color: white;
-    border-bottom: 1px dashed white;
-  }
+.color {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
 }
